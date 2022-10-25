@@ -3,25 +3,36 @@ html{
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-image: url('vaporwave-zl.jpg');
+    background-repeat: none;
+    background-size: cover;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    color: #333;
     line-height: 1.5;
     margin: 0;
     padding: 0;
     height: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 h1{
     color: rgb(3, 24, 31);
+    background-color:blueviolet;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
     text-align: center;
+    padding: 5px;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
 }
 
 p{
@@ -29,9 +40,18 @@ p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     text-align: left;
+    background-color:darkmagenta;
+    display: inline;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 24px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding: 5px;
+}
+
+input{
+    margin-left: 24px;
+    width: 160px;
+}
+img{
+    width: 100%;
 }
